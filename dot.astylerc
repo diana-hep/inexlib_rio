@@ -6,6 +6,7 @@
 --indent-preproc-block
 --indent-preproc-define
 --indent-preproc-cond
+--indent-col1-comments
 --max-instatement-indent=60 # if indentation of continuing line is <60, indent
 --min-conditional-indent=0 # no extra indent for continued conditions
 --pad-oper # space around operands

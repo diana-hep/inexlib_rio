@@ -5,6 +5,7 @@ clean:
 
 style:
 	find inlib -type f | xargs astyle --options=dot.astylerc
+	find examples -name "*.cpp" | xargs astyle --options=dot.astylerc
 
 examples:
 	mkdir -p examples/bin
