@@ -1,4 +1,0 @@
-
-build_args=
-while test $# -ge 1 ; do build_args="${build_args} $1";shift; done
-

@@ -1,9 +1,0 @@
-
-if [ "${use_ios}" = "yes" ] ; then
-
-  libs="${libs} -framework MessageUI"
-  libs="${libs} -framework UIKit"
-  libs="${libs} -framework Foundation" # NS functions.
-  libs="${libs} -framework QuartzCore" # CA functions.
-
-fi

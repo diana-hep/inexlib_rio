@@ -1,0 +1,18 @@
+--indent=spaces=4
+--convert-tabs
+--style=stroustrup
+--indent-switches # case block is indented wrt switch
+--indent-namespaces
+--indent-preproc-block
+--indent-preproc-define
+--indent-preproc-cond
+--max-instatement-indent=60 # if indentation of continuing line is <60, indent
+--min-conditional-indent=0 # no extra indent for continued conditions
+--pad-oper # space around operands
+--pad-header # add a space around () after if, while,...
+--unpad-paren # and remove all unwanted padding around parentheses
+--break-blocks # Pad empty lines around header blocks (e.g. 'if ', 'for ', 'while '...).
+--delete-empty-lines
+--align-pointer=type
+--align-reference=type
+--suffix=none # no backups - we have git

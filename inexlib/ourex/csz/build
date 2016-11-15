@@ -1,7 +1,0 @@
-#!/bin/sh -f
-
-bush_home=../../../bush
-
-. ${bush_home}/args
-. ${bush_home}/ourex_header
-. ${bush_home}/ourex_generic

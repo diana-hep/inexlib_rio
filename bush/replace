@@ -1,9 +1,0 @@
-#!/bin/sh -f
-
-if [ $# != 3 ] ; then
-  echo 'bush/replace : three arguments expected : <old> <new> <file>'
-  exit
-fi
-
-sed -e "s:$1:$2:g" $3 > ./tmp_0
-/bin/mv ./tmp_0 $3

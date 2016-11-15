@@ -1,8 +1,0 @@
-
-if [ "${use_kernel}" = "yes" ] ; then
-
-  if [ ${build_visual} = "yes" ] ; then
-    libs="${libs} kernel32.lib"
-  fi
-
-fi

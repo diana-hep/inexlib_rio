@@ -1,7 +1,0 @@
-
-use_HEPVis=yes
-use_CoinGL=yes
-
-. ${bush_home}/use/HEPVis
-. ${bush_home}/use/CoinGL
-

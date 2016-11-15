@@ -1,9 +1,0 @@
-#!/bin/sh -f
-
-bush_home=`dirname $0`
-
-app="`pwd`"
-app="`basename ${app}`"
-
-git init
-git remote add lx2 barrand@lx3.lal.in2p3.fr:/exp/si/barrand/git_repos/${app}.git

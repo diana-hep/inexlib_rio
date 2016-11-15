@@ -1,8 +1,0 @@
-
-if [ "${use_socket}" = "yes" ] ; then
-
-  if [ ${build_visual} = "yes" ] ; then
-    libs="${libs} wsock32.lib"
-  fi
-
-fi

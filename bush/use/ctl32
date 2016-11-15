@@ -1,6 +1,0 @@
-
-if [ "${use_ctl32}" = "yes" ] ; then
-  if [ ${build_visual} = "yes" ] ; then
-    libs="${libs} Comdlg32.lib Comctl32.lib"
-  fi
-fi

@@ -1,7 +1,0 @@
-#!/bin/sh -f
-
-app="`pwd`"
-app="`dirname ${app}`"
-app="`basename ${app}`"
-
-echo ${app}

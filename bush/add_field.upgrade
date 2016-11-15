@@ -1,2 +1,0 @@
-add_before_line_if\nfield_desc> s_v;\n    INLIB_FIELD_DESC_NODE_CLASS(inlib::sg::@@class@@)
-
